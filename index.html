@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Developer portfolio showcasing projects, skills, and contact information.">
+  <title>Lloyd | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-glow glow-one" aria-hidden="true"></div>
+  <div class="page-glow glow-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Lloyd home"><span class="brand-mark">&lt;/&gt;</span> John Lloyd<span class="brand-dot">.</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Switch to light mode" title="Toggle color theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path></svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 15.5A8.5 8.5 0 0 1 8.5 3.5 8.5 8.5 0 1 0 20.5 15.5Z"></path></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy reveal">
+        <div class="availability"><span class="status-dot"></span> OPEN TO LEARNING & OPPORTUNITIES</div>
+        <p class="eyebrow">HELLO, WORLD. I'M</p>
+        <h1>Lloyd<span class="accent">.</span><br><span class="gradient-text">Aspiring Developer</span></h1>
+        <p class="hero-description">I build practical digital experiences and turn ideas into working projects, one line of code at a time.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button button-quiet" href="#contact">Let's connect <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-meta">
+          <div><span class="meta-number">01</span><span class="meta-label">Curious mindset</span></div>
+          <div><span class="meta-number">∞</span><span class="meta-label">Things to build</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Decorative code editor illustration">
+        <div class="orbit orbit-large"></div><div class="orbit orbit-small"></div>
+        <div class="floating-chip chip-top"><span class="chip-icon">✦</span> Always learning</div>
+        <div class="code-window">
+          <div class="window-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>developer.js</span><span class="window-menu">•••</span></div>
+          <div class="code-content">
+            <div><span class="line-number">01</span><span class="code-purple">const</span> <span class="code-blue">developer</span> = {</div>
+            <div class="indent"><span class="code-pink">name</span>: <span class="code-green">'Lloyd'</span>,</div>
+            <div class="indent"><span class="code-pink">focus</span>: <span class="code-green">'Building useful things'</span>,</div>
+            <div class="indent"><span class="code-pink">skills</span>: [</div>
+            <div class="indent2"><span class="code-green">'Java'</span>, <span class="code-green">'HTML'</span>,</div>
+            <div class="indent2"><span class="code-green">'CSS'</span>, <span class="code-green">'JavaScript'</span></div>
+            <div class="indent">],</div>
+            <div class="indent"><span class="code-pink">mindset</span>: <span class="code-green">'Keep improving'</span></div>
+            <div>};</div>
+            <div class="code-last"><span class="code-purple">while</span> (learning) { <span class="code-blue">build</span>(); }<span class="cursor">|</span></div>
+          </div>
+          <div class="window-footer"><span><i class="footer-dot"></i> Ready to build</span><span>UTF-8&nbsp; • &nbsp;JavaScript</span></div>
+        </div>
+        <div class="floating-chip chip-bottom"><span class="chip-icon">⌘</span> Logic → Code → Solution</div>
+      </div>
+      <a class="scroll-hint" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container section-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 / A LITTLE ABOUT ME</p>
+          <h2>Learning today.<br><span class="gradient-text">Building for tomorrow.</span></h2>
+        </div>
+        <div class="about-content reveal">
+          <p class="lead">I'm an aspiring software developer who enjoys solving problems and learning how things work behind the screen.</p>
+          <p>My current focus is strengthening my programming fundamentals and building projects that help me practice real-world skills. I value readable code, steady progress, and understanding the solution instead of blindly copying it.</p>
+          <div class="about-facts">
+            <div class="fact-card"><span class="fact-icon">⌁</span><div><strong>Problem solver</strong><span>I like breaking challenges into smaller steps.</span></div></div>
+            <div class="fact-card"><span class="fact-icon">⌘</span><div><strong>Project focused</strong><span>I learn by building, testing, and improving.</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">02 / MY TOOLKIT</p>
+          <h2>Skills I'm <span class="gradient-text">building.</span></h2>
+          <p class="section-intro">A growing set of tools for turning ideas into useful software.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><div class="skill-symbol java-symbol">☕</div><h3>Java</h3><p>Programming fundamentals, OOP, and application logic.</p><span class="skill-level"><i style="--level: 72%"></i></span><small>Learning & practicing</small></article>
+          <article class="skill-card reveal"><div class="skill-symbol html-symbol">5</div><h3>HTML</h3><p>Semantic page structure and accessible content.</p><span class="skill-level"><i style="--level: 68%"></i></span><small>Learning & practicing</small></article>
+          <article class="skill-card reveal"><div class="skill-symbol css-symbol">✳</div><h3>CSS</h3><p>Responsive layouts, styling, and visual polish.</p><span class="skill-level"><i style="--level: 58%"></i></span><small>Learning & practicing</small></article>
+          <article class="skill-card reveal"><div class="skill-symbol js-symbol">JS</div><h3>JavaScript</h3><p>Interactive web features and browser behavior.</p><span class="skill-level"><i style="--level: 38%"></i></span><small>Currently learning</small></article>
+          <article class="skill-card reveal"><div class="skill-symbol db-symbol">▤</div><h3>SQLite / SQL</h3><p>Data storage, tables, and basic database operations.</p><span class="skill-level"><i style="--level: 48%"></i></span><small>Learning & practicing</small></article>
+          <article class="skill-card reveal"><div class="skill-symbol git-symbol">⌥</div><h3>Git & GitHub</h3><p>Version control and sharing project code.</p><span class="skill-level"><i style="--level: 30%"></i></span><small>Next on my list</small></article>
+        </div>
+        <p class="skills-note">Skill indicators are personal learning estimates. Update them as your experience grows.</p>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">03 / SELECTED WORK</p>
+          <h2>Projects in <span class="gradient-text">progress.</span></h2>
+          <p class="section-intro">Small projects are where solid developer habits begin.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card project-featured reveal">
+            <div class="project-art art-banking"><div class="art-orb"></div><div class="mini-dashboard"><div class="mini-top"><span>● ● ●</span><span>MY WALLET</span></div><div class="mini-balance"><small>Available balance</small><strong>₱ 12,450.00</strong></div><div class="mini-actions"><span>↗ Deposit</span><span>↙ Withdraw</span></div><div class="mini-chart"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div><span class="art-label">JAVA / SQLITE</span></div>
+            <div class="project-info"><div class="project-topline"><span class="project-type">01 — ANDROID APP</span><span class="project-status"><i></i> IN DEVELOPMENT</span></div><h3>Personal Banking App</h3><p>A learning project for account registration, login, and basic balance operations using Java and SQLite.</p><div class="tag-list"><span>Java</span><span>Android Studio</span><span>SQLite</span></div><a class="project-link" href="#contact">Ask about this project <span>↗</span></a></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-art art-student"><div class="student-window"><div class="student-sidebar"><b>ST</b><span></span><span></span><span></span></div><div class="student-main"><small>STUDENT DIRECTORY</small><strong>Student Manager</strong><div class="student-row"><i>JD</i><span></span><b>•••</b></div><div class="student-row"><i>AM</i><span></span><b>•••</b></div><div class="student-row"><i>KL</i><span></span><b>•••</b></div><div class="student-button">+ Add student</div></div></div><span class="art-label">CRUD / DATABASE</span></div>
+            <div class="project-info"><div class="project-topline"><span class="project-type">02 — DATABASE APP</span><span class="project-status status-planned"><i></i> PRACTICE</span></div><h3>Student Management</h3><p>A simple app concept for organizing student records and practicing create, read, update, and delete operations.</p><div class="tag-list"><span>Java</span><span>SQLite</span><span>RecyclerView</span></div><a class="project-link" href="#contact">Ask about this project <span>↗</span></a></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-art art-web"><div class="web-browser"><div class="browser-bar"><i></i><i></i><i></i><span>lokalfinds.example</span></div><div class="web-content"><b>lokal<span>finds.</span></b><div class="web-banner"></div><div class="web-products"><i></i><i></i><i></i></div></div></div><span class="art-label">WEB DESIGN</span></div>
+            <div class="project-info"><div class="project-topline"><span class="project-type">03 — WEB CONCEPT</span><span class="project-status status-planned"><i></i> CONCEPT</span></div><h3>Lokal Finds</h3><p>A shop concept celebrating Filipino-made crafts, lifestyle products, and locally made goods.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>UI Design</span></div><a class="project-link" href="#contact">Ask about this project <span>↗</span></a></div>
+          </article>
+        </div>
+        <p class="project-disclaimer">Replace these sample project descriptions and status labels with your real progress. Only claim features you have built and tested.</p>
+      </div>
+    </section>
+
+    <section class="section process-section">
+      <div class="container process-inner reveal">
+        <div><p class="eyebrow">MY APPROACH</p><h2>Understand first.<br><span class="gradient-text">Code with purpose.</span></h2></div>
+        <div class="process-steps">
+          <div><span>01</span><p><strong>Understand</strong><small>Define the problem and break it into steps.</small></p></div>
+          <div><span>02</span><p><strong>Build</strong><small>Write clear code and test each part.</small></p></div>
+          <div><span>03</span><p><strong>Improve</strong><small>Find issues, learn from them, and iterate.</small></p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-wrap reveal">
+        <div class="contact-copy"><p class="eyebrow">04 / GET IN TOUCH</p><h2>Have an idea?<br><span class="gradient-text">Let's talk.</span></h2><p>I'm open to connecting with fellow learners, discussing projects, and exploring opportunities to grow as a developer.</p>
+          <div class="contact-detail"><span class="contact-icon">@</span><div><small>EMAIL ME</small><a id="email-link" href="mailto:your.email@example.com">your.email@example.com</a></div></div>
+          <div class="contact-detail"><span class="contact-icon">⌘</span><div><small>FIND MY CODE</small><a id="github-link" href="https://github.com/unknowndeveloping" target="_blank" rel="noreferrer">GitHub profile ↗</a></div></div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <label for="sender-name">Your name</label><input id="sender-name" name="name" type="text" placeholder="Jane Smith" required>
+          <label for="sender-email">Your email</label><input id="sender-email" name="email" type="email" placeholder="jane@example.com" required>
+          <label for="sender-message">Message</label><textarea id="sender-message" name="message" rows="4" placeholder="Tell me a little about your idea..." required></textarea>
+          <button class="button button-primary submit-button" type="submit">Prepare email <span aria-hidden="true">↗</span></button>
+          <p class="form-note" id="form-note">This opens your email app with your message. No data is stored by this page.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">&lt;/&gt;</span> Lloyd<span class="brand-dot">.</span></a><p>Designed with care. Built to keep improving.</p><a href="#home" class="back-top">BACK TO TOP ↑</a></div>
+    <div class="container copyright"><span>© <span id="year"></span> Lloyd/span><span>HTML · CSS · JavaScript</span></div>
+  </footer>
+</body>
+</html>
